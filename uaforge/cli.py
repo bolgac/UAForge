@@ -88,8 +88,8 @@ Examples:
                 from .utils import save_useragents_to_file
                 
                 if os.path.exists(args.output):
-                    overwrite = input(f"The {args.output} file already exists. Should it be overwritten? (yes/no)")
-                    if overwrite.lower() != 'e':
+                    overwrite = input(f"The {args.output} file already exists. Should it be overwritten? (yes/no) : ")
+                    if overwrite.lower() != 'y' and overwrite.lower() != 'yes':
                         print("The transaction has been cancelled.")
                         return
                 

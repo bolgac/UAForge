@@ -86,7 +86,7 @@ class UserAgentGenerator:
         else:
             raise ValueError(f"Desteklenmeyen tarayıcı tipi: {browser_type}")
     
-    def _create_chrome_agent(self, system_select: str, type_select: str) -> str:
+    def _create_chrome_agent(self, select_key: str, system_select: str, type_select: str) -> str:
         """
         Generates a Chrome-based User-Agent string based on the provided system and type selections.
         Args:
@@ -113,7 +113,7 @@ class UserAgentGenerator:
             CHROME_VERS_SELECT = random.choice(self.CHROME_VERS)
             return f"{Moz}/{Mozilla_vers} ({system_select}; {type_select}) AppleWebKit/537.36 (KHTML, like Gecko) {CHROME_VERS_SELECT} Safari/537.36"
     
-    def _create_firefox_agent(self, system_select: str, type_select: str) -> str:
+    def _create_firefox_agent(self, select_key: str, system_select: str, type_select: str) -> str:
         """
         Generates a Firefox user agent string based on the provided system and type selections.
         Args:
@@ -141,7 +141,7 @@ class UserAgentGenerator:
             FIREFOX_VERS_SELECT = random.choice(self.FIREFOX_VERS)
             return f"{Moz}/{Mozilla_vers} ({system_select}; {type_select}; rv:109.0) Gecko/20100101 {FIREFOX_VERS_SELECT}"
     
-    def _create_opera_agent(self, system_select: str, type_select: str) -> str:
+    def _create_opera_agent(self,select_key: str, system_select: str, type_select: str) -> str:
         """
         Generates an Opera browser User-Agent string based on the provided system and type selections.
         Args:
