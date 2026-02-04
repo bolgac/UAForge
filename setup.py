@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="UAForge",
-    version="1.1.1",
+    version="1.1.2",
     author="bolgac",
     author_email="bytearchsoft@gmail.com",
     description="A powerful Python library and CLI tool for generating realistic, random user agent strings for Chrome, Firefox, and Opera browsers across multiple platforms.",
@@ -16,14 +16,18 @@ setup(
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
         "Topic :: Software Development :: Testing",
+        "Topic :: Utilities",
+        "Environment :: Console",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        "Natural Language :: English",
     ],
     python_requires=">=3.6",
     install_requires=[

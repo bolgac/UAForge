@@ -1,5 +1,5 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/UAForge?style=for-the-badge)](https://pypi.org/project/UAForge/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/UAForge?style=for-the-badge)](https://www.python.org/downloads/release/python-396/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/UAForge?style=for-the-badge)](https://www.python.org/downloads/)
 [![PyPI - License](https://img.shields.io/pypi/l/UAForge?style=for-the-badge)](https://github.com/bolgac/UAForge/blob/main/LICENSE)
 ![PyPI - Status](https://img.shields.io/pypi/status/UAForge?style=for-the-badge)
 ---
