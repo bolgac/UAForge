@@ -1,4 +1,4 @@
-# UAForge - UserAgent Generator CLI
+# UAForge - UserAgent Generator
 
 A powerful Python library and CLI tool for generating realistic, random user agent strings for Chrome, Firefox, and Opera browsers across multiple platforms.
 
