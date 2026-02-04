@@ -1,3 +1,8 @@
+![PyPI - Version](https://img.shields.io/pypi/v/UAForge?style=for-the-badge&labelColor=%234f4f4d&color=%23c4ff03&link=https%3A%2F%2Fpypi.org%2Fproject%2FUAForge%2F)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/UAForge?style=for-the-badge)
+![PyPI - License](https://img.shields.io/pypi/l/UAForge?style=for-the-badge&link=https%3A%2F%2Fgithub.com%2Fbolgac%2FUAForge%2Fblob%2Fmain%2FLICENSE)
+
+---
 # UAForge - UserAgent Generator
 
 A powerful Python library and CLI tool for generating realistic, random user agent strings for Chrome, Firefox, and Opera browsers across multiple platforms.

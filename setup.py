@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
-         "Intended Audience :: Developers",
+        "Intended Audience :: Developers",
         "Topic :: Software Development :: Testing",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
