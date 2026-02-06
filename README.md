@@ -140,7 +140,7 @@ uaforge --browser Chrome
 - **Platform information:** Windows, Linux, macOS, Android system strings
 - **Version types:** Architecture and build types for each platform
 - **Release dates:** Version release information
-- **Database location:** ~/.useragent_generator/data/useragent.db
+- **Database location:** ~/.uaforge/data/useragent.db
 
 ---
 
